@@ -24,3 +24,34 @@ h3 {
 	font-size: 18px;
 	font-weight: 700;
 }
+
+.text-center {
+	text-align: center;
+}
+
+.clear:before,
+.clear:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+div#feed {
+	width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	background: #f1f1f1;
+}
+div.facebook-post {
+	display: block;
+	float: left;
+	margin-bottom: 20px;
+}
+div.facebook-post .post span {
+	display: block;
+	float: left;
+	width: 100%;
+}
+div.facebook-post:last-child {
+	margin-bottom: 0;
+}
