@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700');
 
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
 body {
 	font-family: 'Comfortaa', cursive;
 	font-size: 14px;
@@ -46,7 +51,28 @@ div.facebook-post {
 	display: block;
 	float: left;
 	margin-bottom: 20px;
+	background: #fafafa;
+	width: 100%;
+	padding: 20px 10px;
 }
+div.facebook-post span.post-image img{
+	width: 100%;
+	height: auto;
+}
+div.facebook-post.link {
+	border-top: 3px solid salmon;
+	background: #f4f4f4;
+}
+div.facebook-post.status {
+	border-top: 3px solid slategray;
+}
+div.facebook-post.photo {
+	border-top: 3px solid slateblue;
+}
+div.facebook-post.event {
+	border-top: 3px solid goldenrod;
+}
+
 div.facebook-post .post span {
 	display: block;
 	float: left;
